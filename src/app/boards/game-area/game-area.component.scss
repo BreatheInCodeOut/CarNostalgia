@@ -1,0 +1,29 @@
+@import "./../../../styles/variables";
+
+img 
+{
+    width:100px;
+    height:150px;
+}
+
+#container
+{
+    position:absolute;
+    background-color: $page-background-color;
+    top:20px;
+    left:120px;
+    width:400px;
+    height:590px;
+    border-top:1px solid $color-cadetblue;
+    border-bottom:1px solid $color-cadetblue;
+}
+
+.border1{
+    border-left: 2px dashed $color-lime;
+    border-right: 2px dotted $color-lime;
+}
+
+.border2{
+    border-left: 2px dotted $color-lime;
+    border-right: 2px dashed $color-lime;
+}

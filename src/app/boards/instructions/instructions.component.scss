@@ -1,0 +1,29 @@
+@import "./../../../styles/variables";
+
+#instructions {
+    top: 20px;
+    position:absolute;
+    left:550px;
+    color: $color-deeppink;
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+table {
+    width:250px;
+}
+
+.tdLabel{
+    color:$color-dodgerblue;
+}
+
+button{
+    background-color: $page-background-color;
+    color: $color-lime;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: $color-lime;
+    color: $page-background-color;
+}

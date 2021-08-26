@@ -1,0 +1,19 @@
+<div id="instructions">
+    <table border="1" cellspacing="5" cellpadding="3">
+        <tr>
+            <th class="tdLabel">Left Arrow Key</th>
+            <td>Move Left</td>
+        </tr>
+        <tr>
+            <th class="tdLabel">Right Arrow Key</th>
+            <td>Move Right</td>
+        </tr>
+        <tr>
+            <th colspan="2">
+                <button *ngIf="showStart || showTryAgain" (click)="OnStart()"> 
+                    {{(showStart == true)? "Start the Game" : "Try Again"}}
+                </button>
+            </th>
+        </tr>
+    </table>
+</div>

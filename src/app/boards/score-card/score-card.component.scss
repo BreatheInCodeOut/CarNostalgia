@@ -1,0 +1,23 @@
+@import "./../../../styles/variables";
+
+#scoreCard {
+    position:absolute;
+    top:250px;
+    left:550px;
+}
+
+table{
+    width:250px;
+}
+
+.score {
+    color:$color-darkorange;
+}
+
+.level {
+    color:$color-chartreuse;
+}
+
+.progress {
+    color: $color-deeppink;
+}
