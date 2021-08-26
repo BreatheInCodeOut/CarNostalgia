@@ -1,3 +1,5 @@
+![Snap1](https://user-images.githubusercontent.com/83390923/130950141-b8e118e6-c768-4a8a-8b81-256d42cc1734.png)
+![Snap2](https://user-images.githubusercontent.com/83390923/130950146-9de00c42-50c6-49c1-9e0d-e9e6111e63c2.png)
 # CarGame
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
